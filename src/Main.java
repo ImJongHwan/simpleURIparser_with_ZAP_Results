@@ -9,21 +9,26 @@ public class Main {
     private static List<String> failedCrawlingList;
     private static List<String> failedDetectedTPList;
     private static List<String> failedDetectedTNList;
+    private static List<String> failedDetectedEXList;
+    private static List<String> failedDetectedFPList;
 
     public static void main(String[] args) {
         List<String> crawledList;
         List<String> detectedList;
 
-        if(!(args.length < 3) && args[0] != null && args[1] != null && args[2] != null) {
-            crawledList = readFile(BenchmarkRes.BENCHMARK_RES_PATH + args[1]);
-            detectedList = readFile(BenchmarkRes.BENCHMARK_RES_PATH + args[2]);
-        }else{
+        if (!(args.length < 3) && args[0] != null && args[1] != null && args[2] != null) {
+//            crawledList = readFile(BenchmarkRes.BENCHMARK_RES_PATH + args[1]);
+//            detectedList = readFile(BenchmarkRes.BENCHMARK_RES_PATH + args[2]);
+            crawledList = readFile(WavsepRes.WAVSEP_RES_PATH + args[1]);
+            detectedList = readFile(WavsepRes.WAVSEP_RES_PATH + args[2]);
+        } else {
             System.err.println("Please input file name to read.");
             return;
         }
 
-        if(!crawledList.isEmpty() && !detectedList.isEmpty()) {
-            if (makeBenchmarkRes(crawledList, detectedList, args[0])) {
+        if (!crawledList.isEmpty() && !detectedList.isEmpty()) {
+//            if (makeBenchmarkRes(crawledList, detectedList, args[0])) {
+            if(makeWavsepRes(crawledList, detectedList, args[0])){
                 System.out.println("Success");
                 return;
             }
@@ -53,7 +58,37 @@ public class Main {
 //        //makeNotFoundUriWAVSEP(crawledList, new File(args[1]), args[2]);
     }
 
-    private static boolean makeBenchmarkRes(List<String> crawledList, List<String> detectedList, String testCase){
+    private static boolean makeWavsepRes(List<String> crawledList, List<String> detectedList, String testCase) {
+        List<String> parsingCrawledList = WavsepRes.parseWavsep(crawledList, testCase);
+        List<String> parsingDetectedList = WavsepRes.parseWavsep(detectedList, testCase);
+
+        failedCrawlingList = WavsepRes.getFailedList(parsingCrawledList, testCase, WavsepRes.ALL_SET);
+        failedDetectedTPList = WavsepRes.getFailedList(parsingDetectedList, testCase, WavsepRes.TRUE_POSITIVE);
+        failedDetectedFPList = WavsepRes.getFailedList(parsingDetectedList, testCase, WavsepRes.FALSE_POSITIVE);
+        failedDetectedEXList = WavsepRes.getFailedList(parsingDetectedList, testCase, WavsepRes.EXPERIMENTAL);
+
+        Date dt = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmmss");
+
+        String timeSet = sdf.format(dt).toString();
+
+        String fDetectTPPath = WavsepRes.WAVSEP_SCORE_PATH + timeSet + "_" + testCase + "_fdetectTP.txt";
+        String fCrawlPath = WavsepRes.WAVSEP_SCORE_PATH + timeSet + "_" + testCase + "_fcrawl.txt";
+        String fDetectFPPath = WavsepRes.WAVSEP_SCORE_PATH + timeSet + "_" + testCase + "_fdetectFP.txt";
+        String fDetectEXPath = WavsepRes.WAVSEP_SCORE_PATH + timeSet + "_" + testCase + "_fdetectEX.txt";
+
+        if(writeFile(failedCrawlingList, fCrawlPath)
+                && writeFile(failedDetectedTPList, fDetectTPPath)
+                && writeFile(failedDetectedFPList, fDetectFPPath)
+                && writeFile(failedDetectedEXList, fDetectEXPath)){
+            return true;
+        }else{
+            return false;
+        }
+
+    }
+
+    private static boolean makeBenchmarkRes(List<String> crawledList, List<String> detectedList, String testCase) {
         List<String> parsingCrawledList = BenchmarkRes.parseBenchmark(crawledList);
         List<String> parsingDetectedList = BenchmarkRes.parseBenchmark(detectedList);
 
@@ -62,7 +97,7 @@ public class Main {
         failedDetectedTPList = BenchmarkRes.getFailedList(parsingDetectedList, testCase, BenchmarkRes.TRUE_POSITIVE);
 
         Date dt = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyymmddhhmmss");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmmss");
 
         String timeSet = sdf.format(dt).toString();
 
@@ -70,50 +105,53 @@ public class Main {
         String fDetectTNPath = BenchmarkRes.BENCHMARK_SCORE_PATH + timeSet + "_" + testCase + "_fdetectTN.txt";
         String fDetectTPPath = BenchmarkRes.BENCHMARK_SCORE_PATH + timeSet + "_" + testCase + "_fdetectTP.txt";
 
-        if(writeFile(failedCrawlingList, fCrawlPath)
+        if (writeFile(failedCrawlingList, fCrawlPath)
                 && writeFile(failedDetectedTNList, fDetectTNPath)
-                && writeFile(failedDetectedTPList, fDetectTPPath)){
+                && writeFile(failedDetectedTPList, fDetectTPPath)) {
             return true;
-        }else{
+        } else {
             return false;
         }
 
 
     }
 
-    public static List<String> readFile(String readFilePath){
+    public static List<String> readFile(String readFilePath) {
         List<String> fileContexts = new ArrayList<String>();
-        try{
+        try {
             BufferedReader reader = new BufferedReader(new FileReader(readFilePath));
             String line;
-            while((line = reader.readLine()) != null){
-                line =line.replaceAll("\u0000","");
-                line = line.replaceAll("\\s+","");
+            while ((line = reader.readLine()) != null) {
+                line = line.replaceAll("\u0000", "");
+                line = line.replaceAll("\\s+", "");
                 fileContexts.add(line);
             }
             reader.close();
             return fileContexts;
-        }catch(Exception e){
+        } catch (Exception e) {
             System.err.println("Exception occurred try reading file" + readFilePath);
             e.printStackTrace();
             return null;
         }
     }
 
-    public static boolean writeFile(List<String> context, String filePath){
-        try{
-            File newFile = new File(filePath + ".txt");
+    public static boolean writeFile(List<String> context, String filePath) {
+        try {
+            File newFile = new File(filePath);
 
-            if(newFile.exists()) {
+            if (newFile.exists()) {
                 return false;
-            }else{
+            } else {
                 newFile.createNewFile();
             }
 
             FileWriter fw = new FileWriter(newFile.getAbsoluteFile());
             BufferedWriter bw = new BufferedWriter(fw);
 
-            for(String line : context){
+            bw.write("Total count : " + context.size());
+            bw.newLine();
+
+            for (String line : context) {
                 bw.write(line);
                 bw.newLine();
             }
@@ -123,7 +161,7 @@ public class Main {
             System.out.println("Making FilePath : " + filePath);
 
             return true;
-        }catch(Exception e){
+        } catch (Exception e) {
             System.err.println("Loading File is failed.");
             e.printStackTrace();
             return false;
@@ -155,7 +193,7 @@ public class Main {
 //        return resParsing;
 //    }
 
-    
+
 //
 //    public static boolean makeNotFoundUri(List<String> context, File resource){
 //        List<String> find = new ArrayList<>();
@@ -243,52 +281,52 @@ public class Main {
 //        }
 //    }
 
-    public static boolean makeNotFoundUriWAVSEP(List<String> context, File resource, String category){
+    public static boolean makeNotFoundUriWAVSEP(List<String> context, File resource, String category) {
         List<String> find = new ArrayList<>();
         List<String> comp = new ArrayList<>();
-        for(String uri : context){
-            int start = uri.indexOf(category + "/") + category.length()+1;
+        for (String uri : context) {
+            int start = uri.indexOf(category + "/") + category.length() + 1;
             int end = uri.indexOf("?");
-            if(end < 0){
+            if (end < 0) {
                 find.add(uri.substring(start));
-            }else{
-                find.add(uri.substring(start,end));
+            } else {
+                find.add(uri.substring(start, end));
             }
         }
         try {
             BufferedReader br = new BufferedReader(new FileReader(resource));
             String line;
 
-            while((line=br.readLine()) != null){
+            while ((line = br.readLine()) != null) {
                 comp.add(line);
             }
 
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-        } catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
-        try{
+        try {
             Date dt = new Date();
             SimpleDateFormat sdf = new SimpleDateFormat("yyyymmddhhmmss");
             String fileName = ".\\" + sdf.format(dt).toString() + "_" + resource.getName() + ".txt";
             File newFile = new File(fileName);
 
-            if(newFile.exists()) {
+            if (newFile.exists()) {
                 return false;
-            }else{
+            } else {
                 newFile.createNewFile();
             }
 
             FileWriter fw = new FileWriter(newFile.getAbsoluteFile());
             BufferedWriter bw = new BufferedWriter(fw);
 
-            for(String line : find){
-                if(comp.contains(line)){
+            for (String line : find) {
+                if (comp.contains(line)) {
                     comp.remove(comp.indexOf(line));
-                }else{
+                } else {
                     System.err.println("line is not contained in all");
                     System.err.println(">> " + line);
                 }
@@ -297,7 +335,7 @@ public class Main {
             bw.write("Can't found URI Total Count : " + comp.size());
             bw.newLine();
 
-            for(String line : comp){
+            for (String line : comp) {
                 bw.write(line);
                 bw.newLine();
             }
@@ -307,7 +345,7 @@ public class Main {
             System.out.println("FileName : " + fileName);
 
             return true;
-        }catch(Exception e){
+        } catch (Exception e) {
             System.err.println("Loading File is failed.");
             e.printStackTrace();
             return false;

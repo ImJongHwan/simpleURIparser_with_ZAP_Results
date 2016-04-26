@@ -1,0 +1,15 @@
+GET: https://localhost:8443/benchmark/BenchmarkTest00629?password=ZAP&vector=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&username=ZAP	
+GET: https://localhost:8443/benchmark/BenchmarkTest00783?password=ZAP&vector=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&username=ZAP	
+GET: https://localhost:8443/benchmark/BenchmarkTest01496?password=ZAP&vector=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&username=ZAP	
+GET: https://localhost:8443/benchmark/BenchmarkTest01645?password=ZAP&vector=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&username=ZAP	
+GET: https://localhost:8443/benchmark/BenchmarkTest02113?password=ZAP&vector=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&username=ZAP	
+GET: https://localhost:8443/benchmark/BenchmarkTest02560?password=ZAP&vector=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&username=ZAP	
+GET: https://localhost:8443/benchmark/BenchmarkTest02561?password=ZAP&vector=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&username=ZAP	
+GET: https://localhost:8443/benchmark/BenchmarkTest02562?password=ZAP&vector=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&username=ZAP	
+POST: https://localhost:8443/benchmark/BenchmarkTest00360	
+POST: https://localhost:8443/benchmark/BenchmarkTest00455	
+POST: https://localhost:8443/benchmark/BenchmarkTest00456	
+POST: https://localhost:8443/benchmark/BenchmarkTest01500	
+POST: https://localhost:8443/benchmark/BenchmarkTest01572	
+POST: https://localhost:8443/benchmark/BenchmarkTest02465	
+POST: https://localhost:8443/benchmark/BenchmarkTest02466	

@@ -1,0 +1,8 @@
+GET: https://localhost:8443/benchmark/BenchmarkTest00694?password=ZAP&username=ZAP&vector=Ms Bar
+GET: https://localhost:8443/benchmark/BenchmarkTest01243?password=ZAP&username=ZAP&vector=Ms Bar
+GET: https://localhost:8443/benchmark/BenchmarkTest01501?password=ZAP&username=ZAP&vector=Ms Bar
+POST: https://localhost:8443/benchmark/BenchmarkTest00044
+POST: https://localhost:8443/benchmark/BenchmarkTest00630
+POST: https://localhost:8443/benchmark/BenchmarkTest00695
+POST: https://localhost:8443/benchmark/BenchmarkTest01568
+POST: https://localhost:8443/benchmark/BenchmarkTest02196

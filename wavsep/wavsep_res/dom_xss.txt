@@ -1,0 +1,46 @@
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET-Experimental/Case01-Tag2HtmlPageScope-StripScriptTag.jsp?userinput=textvalue?name=<img src="random.gif" onerror=alert(1)>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET-Experimental/Case04-Tag2HtmlPageScope-ChangingAntiCSRFToken.jsp#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET/Case01-Tag2HtmlPageScope.jsp?userinput=textvalue?name=<img src="random.gif" onerror=alert(1)>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET/Case10-Js2DoubleQuoteJsEventScope.jsp?userinput=textvalue#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET/Case11-Js2SingleQuoteJsEventScope.jsp?userinput=textvalue#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET/Case12-Js2JsEventScope.jsp?userinput=1234#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET/Case17-Js2PropertyJsScopeDoubleQuoteDelimiter.jsp?userinput=david#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET/Case18-Js2PropertyJsScopeSingleQuoteDelimiter.jsp?userinput=david#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET/Case19-Js2PropertyJsScope.jsp?userinput=1234#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET/Case22-Js2ScriptTagDoubleQuoteDelimiter.jsp?userinput=david#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET/Case23-Js2ScriptTagSingleQuoteDelimiter.jsp?userinput=david#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET/Case24-Js2ScriptTag.jsp?userinput=1234#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET/Case27-Js2ScriptTagOLCommentScope.jsp?userinput=1234#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET/Case28-Js2ScriptTagMLCommentScope.jsp?userinput=1234#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET/Case30-Tag2HtmlPageScopeMultipleVulnerabilities.jsp?userinput=1234&userinput2=1234?name=<img src="random.gif" onerror=alert(1)>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET/Case32-Tag2HtmlPageScopeValidViewstateRequired.jsp?__VIEWSTATE=%2FwEPDwUENTM4MWRkhsjF%2B62gWnhYUcEyuRwTHxGDVzA%3D&userinput=textvalue?name=<img src="random.gif" onerror=alert(1)>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST-Experimental/Case03-Tag2HtmlPageScope-ConstantAntiCSRFToken.jsp#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST-Experimental/Case04-Tag2HtmlPageScope-ChangingAntiCSRFToken.jsp#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case01-Tag2HtmlPageScope.jsp#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case10-Js2DoubleQuoteJsEventScope.jsp#<img src="random.gif" onerror=alert(1)>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case11-Js2SingleQuoteJsEventScope.jsp#<img src="random.gif" onerror=alert(1)>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case17-Js2PropertyJsScopeDoubleQuoteDelimiter.jsp#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case18-Js2PropertyJsScopeSingleQuoteDelimiter.jsp#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case22-Js2ScriptTagDoubleQuoteDelimiter.jsp#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case23-Js2ScriptTagSingleQuoteDelimiter.jsp#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case27-Js2ScriptTagOLCommentScope.jsp#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case28-Js2ScriptTagMLCommentScope.jsp#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case30-Tag2HtmlPageScopeMultipleVulnerabilities.jsp#<script>alert(1)</script>
+GET: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case32-Tag2HtmlPageScopeValidViewstateRequired.jsp#<script>alert(1)</script>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST-Experimental/Case03-Tag2HtmlPageScope-ConstantAntiCSRFToken.jsp#<script>alert(1)</script>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST-Experimental/Case04-Tag2HtmlPageScope-ChangingAntiCSRFToken.jsp#<script>alert(1)</script>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case01-Tag2HtmlPageScope.jsp#<script>alert(1)</script>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case02-Tag2TagScope.jsp#<script>alert(1)</script>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case08-Event2SingleQuotePropertyScope.jsp#<script>alert(1)</script>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case09-SrcProperty2TagStructure.jsp#<script>alert(1)</script>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case10-Js2DoubleQuoteJsEventScope.jsp#<img src="random.gif" onerror=alert(1)>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case11-Js2SingleQuoteJsEventScope.jsp#<img src="random.gif" onerror=alert(1)>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case17-Js2PropertyJsScopeDoubleQuoteDelimiter.jsp#<script>alert(1)</script>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case18-Js2PropertyJsScopeSingleQuoteDelimiter.jsp#<script>alert(1)</script>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case20-Vbs2PropertyVbsScopeDoubleQuoteDelimiter.jsp#<script>alert(1)</script>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case22-Js2ScriptTagDoubleQuoteDelimiter.jsp#<script>alert(1)</script>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case23-Js2ScriptTagSingleQuoteDelimiter.jsp#<script>alert(1)</script>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case27-Js2ScriptTagOLCommentScope.jsp#<script>alert(1)</script>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case28-Js2ScriptTagMLCommentScope.jsp#<script>alert(1)</script>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case30-Tag2HtmlPageScopeMultipleVulnerabilities.jsp#<script>alert(1)</script>
+POST: http://localhost:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/Case32-Tag2HtmlPageScopeValidViewstateRequired.jsp#<script>alert(1)</script>

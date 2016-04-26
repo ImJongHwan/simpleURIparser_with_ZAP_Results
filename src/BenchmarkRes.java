@@ -26,9 +26,12 @@ public class BenchmarkRes {
     final static public String TRUE_NEGATIVE = "tn";
     final static public String BOTH_TRUE = "both_case";
 
+    final static public int BENCHMAKR_LENGHT = 18;
+
     public static List<String> getFailedList(List<String> urlList, String tc, String set){
         //todo is tc contained in caseList
         List<String> failedList;
+        List<String> debugRemoveLIst = new ArrayList<>();
 
        failedList = getTcList(tc, set);
 
@@ -40,23 +43,24 @@ public class BenchmarkRes {
         for(String url : urlList){
             if(failedList.contains(url)){
                 failedList.remove(url);
+                debugRemoveLIst.add(url);
             }
         }
 
         return failedList;
     }
 
-    public static List<String> getTcList(String tc, String setCase){
+    private static List<String> getTcList(String tc, String setCase){
         List<String> tcList;
 
         if(tc.equals(ALL_TC)){
             tcList = Main.readFile(BENCHMARK_TC_PATH+ALL_TC+".txt");
         }else {
-            if (setCase == TRUE_POSITIVE) {
+            if (setCase.equals(TRUE_POSITIVE)) {
                 tcList = Main.readFile(BENCHMARK_TC_PATH + tc + "_" + TRUE_POSITIVE + ".txt");
-            }else if(setCase == TRUE_NEGATIVE){
+            }else if(setCase.equals(TRUE_NEGATIVE)){
                 tcList = Main.readFile(BENCHMARK_TC_PATH + tc + "_" + TRUE_NEGATIVE + ".txt");
-            }else if(setCase == BOTH_TRUE){
+            }else if(setCase.equals(BOTH_TRUE)){
                 tcList = Main.readFile(BENCHMARK_TC_PATH + tc + "_" + TRUE_POSITIVE + ".txt");
                 if(tcList != null) {
                     tcList.addAll(Main.readFile(BENCHMARK_TC_PATH + tc + "_" + TRUE_NEGATIVE + ".txt"));
@@ -74,18 +78,30 @@ public class BenchmarkRes {
         List<String> parsingList = new ArrayList<>();
 
         for(String uri : originList){
-            int start = uri.indexOf("benchmark/") + 10;
-            int end = uri.indexOf("?");
-            if(end < 0){
-                end = uri.indexOf(".");
-                if(end < 0){
-                    parsingList.add(uri.substring(start));
-                }else{
-                    parsingList.add(uri.substring(start,end));
-                }
-            }else{
-                parsingList.add(uri.substring(start,end));
+//            int start = uri.indexOf("benchmark/") + 10;
+            int start = uri.indexOf(":Benchmark") + 1;
+            if(start < 1){
+                start = uri.indexOf("benchmark/") + 10;
             }
+//            int end = uri.indexOf("?");
+            int end = start + BENCHMAKR_LENGHT;
+
+            parsingList.add(uri.substring(start, end));
+
+//            if(end < 0){
+////                end = uri.indexOf(".");
+//                end = uri.indexOf("?");
+//                if(end < 0){
+//                    end = uri.lastIndexOf(".");
+//                    if(end < 0) {
+//                        parsingList.add(uri.substring(start));
+//                    }
+//                }else{
+//                    parsingList.add(uri.substring(start,end));
+//                }
+//            }else{
+//                parsingList.add(uri.substring(start,end));
+//            }
         }
 
         return parsingList;

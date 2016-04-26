@@ -1,0 +1,329 @@
+GET: https://localhost:8443/benchmark/BenchmarkTest00013.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00014.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00036.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00041.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00041?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00047.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00047?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00048.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00048?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00049.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00049?password=ZAP&username=ZAP&vector=SafeText#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00144.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00145.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00146.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00147.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00148.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00149.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00150.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00152.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00153.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00154.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00155.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00156.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00157.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00276.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00279.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00280.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00284.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00287.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00289.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00290.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00291.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00292.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00301.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00378.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00380.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00382.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00382?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00383.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00384.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00387.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00387?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00388.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00395.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00467.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00467?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00469.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00472.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00472?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00473.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00476.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00477.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00477?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00478.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00479.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00492.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00492?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00541.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00542.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00543.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00544.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00549.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00551.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00552.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00554.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00555.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00644.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00645.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00651.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00656.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00711.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00715.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00719.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00719?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00720.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00721.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00722.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00724.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00724?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00725.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00729.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00729?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00730.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00799.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00800.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00800?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00801.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00801?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00802.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00802?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00803.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00803?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00804.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00804?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00805.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00806.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00806?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00807.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00809.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00809?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00810.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00810?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00811.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00811?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00822.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest00822?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01046.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01047.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01049.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01050.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01055.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01056.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01057.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01171.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01172.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01173.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01174.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01177.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01178.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01181.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01251.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01253.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01253?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01254.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01256.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01258.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01258?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01259.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01260.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01261.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01263.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01263?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01268.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01284.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01335.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01349.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01350.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01417.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01418.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01423.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01424.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01426.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01427.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01428.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01429.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01437.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01505.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01506.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01506?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01507.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01510.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01511.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01511?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01525.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01583.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01587.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01588.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01592.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01596.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01597.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01598.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01657.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01657?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01658.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01658?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01660.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01660?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01662.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01662?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01665.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01665?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01667.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01667?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01670.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01670?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01919.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01920.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01921.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01922.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01923.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01925.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest01926.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest01927.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02046.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02047.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02050.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02051.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02055.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02056.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02057.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02123.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02123?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02127.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02129.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02130.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02132.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02133.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02133?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02145.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02222.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02223.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02223?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02224.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02225.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02227.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02228.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02228?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02234.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02314.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02322.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02323.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02327.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02328.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02332.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02397.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02399.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02400.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02402.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02402?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02403.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02407.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02409.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02483.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02485.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02487.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02487?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02489.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02493.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02578.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02578?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02579.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02580.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02580?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02582.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02582?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02583.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02583?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02584.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02584?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02586.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02586?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02587.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02588.html#abc#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02591.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02591?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02594.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02595.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02595?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02598.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02598?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02600.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02600?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02601.html#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest02608.html#<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/BenchmarkTest02608?password=ZAP&username=ZAP&vector=SafeText?name=<img src="random.gif" onerror=alert(1)>
+GET: https://localhost:8443/benchmark/xss-Index.html#<script>alert(1)</script>
+POST: https://localhost:8443/benchmark/BenchmarkTest00278#<script>alert(1)</script>
+POST: https://localhost:8443/benchmark/BenchmarkTest00378#<script>alert(1)</script>
+GET: https://localhost:8443/benchmark/BenchmarkTest00041?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest00047?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest00048?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest00382?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest00467?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest00644?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest00719?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest00729?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest00801?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest00802?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest00803?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest00805?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest00806?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest00807?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest00809?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest01253?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest01268?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest01506?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest01596?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest01657?password=ZAP&vector=%3C%2Fp%3E%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E%3Cp%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest01660?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest01670?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest02402?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest02578?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest02579?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest02583?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest02586?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest02588?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+GET: https://localhost:8443/benchmark/BenchmarkTest02600?password=ZAP&vector=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&username=ZAP
+POST: https://localhost:8443/benchmark/BenchmarkTest00030
+POST: https://localhost:8443/benchmark/BenchmarkTest00375
+POST: https://localhost:8443/benchmark/BenchmarkTest00380
+POST: https://localhost:8443/benchmark/BenchmarkTest00383
+POST: https://localhost:8443/benchmark/BenchmarkTest00384
+POST: https://localhost:8443/benchmark/BenchmarkTest00395
+POST: https://localhost:8443/benchmark/BenchmarkTest00473
+POST: https://localhost:8443/benchmark/BenchmarkTest00478
+POST: https://localhost:8443/benchmark/BenchmarkTest00642
+POST: https://localhost:8443/benchmark/BenchmarkTest00645
+POST: https://localhost:8443/benchmark/BenchmarkTest00651
+POST: https://localhost:8443/benchmark/BenchmarkTest00711
+POST: https://localhost:8443/benchmark/BenchmarkTest00715
+POST: https://localhost:8443/benchmark/BenchmarkTest00720
+POST: https://localhost:8443/benchmark/BenchmarkTest01254
+POST: https://localhost:8443/benchmark/BenchmarkTest01257
+POST: https://localhost:8443/benchmark/BenchmarkTest01266
+POST: https://localhost:8443/benchmark/BenchmarkTest01267
+POST: https://localhost:8443/benchmark/BenchmarkTest01335
+POST: https://localhost:8443/benchmark/BenchmarkTest01350
+POST: https://localhost:8443/benchmark/BenchmarkTest01505
+POST: https://localhost:8443/benchmark/BenchmarkTest01507
+POST: https://localhost:8443/benchmark/BenchmarkTest01509
+POST: https://localhost:8443/benchmark/BenchmarkTest01583
+POST: https://localhost:8443/benchmark/BenchmarkTest01584
+POST: https://localhost:8443/benchmark/BenchmarkTest01587
+POST: https://localhost:8443/benchmark/BenchmarkTest01590
+POST: https://localhost:8443/benchmark/BenchmarkTest01598
+POST: https://localhost:8443/benchmark/BenchmarkTest02126
+POST: https://localhost:8443/benchmark/BenchmarkTest02127
+POST: https://localhost:8443/benchmark/BenchmarkTest02136
+POST: https://localhost:8443/benchmark/BenchmarkTest02225
+POST: https://localhost:8443/benchmark/BenchmarkTest02232
+POST: https://localhost:8443/benchmark/BenchmarkTest02241
+POST: https://localhost:8443/benchmark/BenchmarkTest02396
+POST: https://localhost:8443/benchmark/BenchmarkTest02399
+POST: https://localhost:8443/benchmark/BenchmarkTest02403
+POST: https://localhost:8443/benchmark/BenchmarkTest02409
+POST: https://localhost:8443/benchmark/BenchmarkTest02480
+POST: https://localhost:8443/benchmark/BenchmarkTest02483
+POST: https://localhost:8443/benchmark/BenchmarkTest02489
+POST: https://localhost:8443/benchmark/BenchmarkTest02493
