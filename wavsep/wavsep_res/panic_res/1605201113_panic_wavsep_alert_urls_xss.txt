@@ -1,0 +1,14 @@
+>> Total Count : 14
+RXSS-Detection-Evaluation-GET/Case32-Tag2HtmlPageScopeValidViewstateRequired.jsp
+RXSS-Detection-Evaluation-GET/Case08-Event2SingleQuotePropertyScope.jsp
+RXSS-Detection-Evaluation-GET-Experimental/Case03-Tag2HtmlPageScope-ConstantAntiCSRFToken.jsp
+RXSS-Detection-Evaluation-GET/Case07-Event2DoubleQuotePropertyScope.jsp
+RXSS-Detection-Evaluation-GET/Case04-Tag2HtmlComment.jsp
+RXSS-Detection-Evaluation-GET-Experimental/Case01-Tag2HtmlPageScope-StripScriptTag.jsp
+RXSS-Detection-Evaluation-GET/Case03-Tag2TagStructure.jsp
+RXSS-Detection-Evaluation-GET/Case30-Tag2HtmlPageScopeMultipleVulnerabilities.jsp
+RXSS-Detection-Evaluation-GET/Case01-Tag2HtmlPageScope.jsp
+RXSS-Detection-Evaluation-GET/Case02-Tag2TagScope.jsp
+RXSS-Detection-Evaluation-GET/Case05-Tag2Frameset.jsp
+RXSS-Detection-Evaluation-GET/Case06-Event2TagScope.jsp
+RXSS-Detection-Evaluation-GET/Case31-Tag2HtmlPageScopeDuringException.jsp

@@ -6,6 +6,10 @@ import java.util.List;
  */
 public class WavsepRes {
 
+
+    public static final String WAVSEP_CASE_STRING = "Case";
+    public static final String WAVSEP_URL_EXTENSION_JSP = ".jsp";
+
     public final static String WAVSEP_RES_PATH = "C:\\gitProjects\\simpleURLParser\\wavsep\\wavsep_res\\";
     public static final String WAVSEP_TC_PATH = "C:\\gitProjects\\simpleURLParser\\wavsep\\wavsep_tc\\";
     public static final String WAVSEP_SCORE_PATH = "C:\\gitProjects\\simpleURLParser\\wavsep\\wavsep_score\\";

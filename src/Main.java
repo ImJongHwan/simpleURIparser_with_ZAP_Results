@@ -17,10 +17,10 @@ public class Main {
         List<String> detectedList;
 
         if (!(args.length < 3) && args[0] != null && args[1] != null && args[2] != null) {
-//            crawledList = readFile(BenchmarkRes.BENCHMARK_RES_PATH + args[1]);
-//            detectedList = readFile(BenchmarkRes.BENCHMARK_RES_PATH + args[2]);
-            crawledList = readFile(WavsepRes.WAVSEP_RES_PATH + args[1]);
-            detectedList = readFile(WavsepRes.WAVSEP_RES_PATH + args[2]);
+            crawledList = readFile(BenchmarkRes.BENCHMARK_RES_PATH + args[1]);
+            detectedList = readFile(BenchmarkRes.BENCHMARK_RES_PATH + args[2]);
+//            crawledList = readFile(WavsepRes.WAVSEP_RES_PATH + args[1]);
+//            detectedList = readFile(WavsepRes.WAVSEP_RES_PATH + args[2]);
         } else {
             System.err.println("Please input file name to read.");
             return;
@@ -28,7 +28,9 @@ public class Main {
 
         if (!crawledList.isEmpty() && !detectedList.isEmpty()) {
 //            if (makeBenchmarkRes(crawledList, detectedList, args[0])) {
-            if(makeWavsepRes(crawledList, detectedList, args[0])){
+//            if(makeWavsepRes(crawledList, detectedList, args[0])){
+//            if(getWavsepPanicRes(crawledList, detectedList, args[0])){
+            if(getBenchmarkRes(crawledList, detectedList, args[0])){
                 System.out.println("Success");
                 return;
             }
@@ -58,6 +60,92 @@ public class Main {
 //        //makeNotFoundUriWAVSEP(crawledList, new File(args[1]), args[2]);
     }
 
+    private static boolean getBenchmarkRes(List<String> crawledList, List<String> detectedList, String testCase){
+        List<String> parsingCrawledList = BenchmarkRes.parseBenchmark(crawledList);
+        List<String> parsingDetectedList = parsingBenchmarkRes(detectedList);
+
+        failedCrawlingList = BenchmarkRes.getFailedList(parsingCrawledList, testCase, BenchmarkRes.BOTH_TRUE);
+        failedDetectedTNList = BenchmarkRes.getFailedList(parsingDetectedList, testCase, BenchmarkRes.TRUE_NEGATIVE);
+        failedDetectedTPList = BenchmarkRes.getFailedList(parsingDetectedList, testCase, BenchmarkRes.TRUE_POSITIVE);
+
+        Date dt = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmmss");
+
+        String timeSet = sdf.format(dt).toString();
+
+        String fCrawlPath = BenchmarkRes.BENCHMARK_SCORE_PATH + timeSet + "_" + testCase + "_fcrawl.txt";
+        String fDetectTNPath = BenchmarkRes.BENCHMARK_SCORE_PATH + timeSet + "_" + testCase + "_fdetectTN.txt";
+        String fDetectTPPath = BenchmarkRes.BENCHMARK_SCORE_PATH + timeSet + "_" + testCase + "_fdetectTP.txt";
+
+        if (writeFile(failedCrawlingList, fCrawlPath)
+                && writeFile(failedDetectedTNList, fDetectTNPath)
+                && writeFile(failedDetectedTPList, fDetectTPPath)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    private static List<String> parsingBenchmarkRes(List<String> crawledList){
+        List<String> parsingList = new ArrayList<>();
+
+        for(String line : crawledList){
+            if(line.contains(BenchmarkRes.BENCHMARK_CONTAIN_STRING)){
+                parsingList.add(line);
+            }
+        }
+
+        return parsingList;
+    }
+
+    private static boolean getWavsepPanicRes(List<String> crawledList, List<String> detectedList, String testCase){
+        List<String> parsingCrawledList = WavsepRes.parseWavsep(crawledList, testCase);
+        List<String> parsingDetectedList = parsingWavsepPanicRes(detectedList);
+
+        failedCrawlingList = WavsepRes.getFailedList(parsingCrawledList, testCase, WavsepRes.ALL_SET);
+        failedDetectedTPList = WavsepRes.getFailedList(parsingDetectedList, testCase, WavsepRes.TRUE_POSITIVE);
+        failedDetectedFPList = WavsepRes.getFailedList(parsingDetectedList, testCase, WavsepRes.FALSE_POSITIVE);
+        failedDetectedEXList = WavsepRes.getFailedList(parsingDetectedList, testCase, WavsepRes.EXPERIMENTAL);
+
+        Date dt = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
+
+        String timeSet = sdf.format(dt).toString();
+
+        String fDetectTPPath = WavsepRes.WAVSEP_SCORE_PATH + timeSet + "_WAVSEP_acunetix_" + testCase + "_fdetectTP.txt";
+        String fCrawlPath = WavsepRes.WAVSEP_SCORE_PATH + timeSet + "_WAVSEP_acunetix_" + testCase + "_fcrawl.txt";
+        String fDetectFPPath = WavsepRes.WAVSEP_SCORE_PATH + timeSet + "_WAVSEP_acunetix_" + testCase + "_fdetectFP.txt";
+        String fDetectEXPath = WavsepRes.WAVSEP_SCORE_PATH + timeSet + "_WAVSEP_acunetix_" + testCase + "_fdetectEX.txt";
+
+        if(writeFile(failedCrawlingList, fCrawlPath)
+                && writeFile(failedDetectedTPList, fDetectTPPath)
+                && writeFile(failedDetectedFPList, fDetectFPPath)
+                && writeFile(failedDetectedEXList, fDetectEXPath)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    /**
+     * parse WAVSEP Panic Results List,
+     * wavsep panic results list form
+     * ex) total count = 1
+     * {testcase_root}/{jsp file Name}*
+     *
+     * @param detectedList wavsep panic results list
+     * @return parsing results lis
+     */
+    private static List<String> parsingWavsepPanicRes(List<String> detectedList){
+        List<String> parsingList = new ArrayList<>();
+        for(String detected : detectedList){
+            if(detected.contains(WavsepRes.WAVSEP_CASE_STRING) && detected.contains(WavsepRes.WAVSEP_URL_EXTENSION_JSP)){
+                parsingList.add(detected);
+            }
+        }
+        return parsingList;
+    }
+
     private static boolean makeWavsepRes(List<String> crawledList, List<String> detectedList, String testCase) {
         List<String> parsingCrawledList = WavsepRes.parseWavsep(crawledList, testCase);
         List<String> parsingDetectedList = WavsepRes.parseWavsep(detectedList, testCase);
@@ -68,7 +156,7 @@ public class Main {
         failedDetectedEXList = WavsepRes.getFailedList(parsingDetectedList, testCase, WavsepRes.EXPERIMENTAL);
 
         Date dt = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmmss");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
 
         String timeSet = sdf.format(dt).toString();
 

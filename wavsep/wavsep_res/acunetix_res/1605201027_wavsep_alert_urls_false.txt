@@ -1,0 +1,3 @@
+>> Total Count : 2
+Redirect-FalsePositives-GET/Case05-Redirect-FalsePositive-InactiveJavascriptRedirect-FilenameContext-InputValidation-HttpURL-DefaultFullInput-AnyPathReq-Read.jsp
+RFI-FalsePositives-GET/Case05-RFI-FalsePositive-UrlClass-TextHtmlValidResponse-FilenameContext-EnumerationResponseOnly-OSPath-DefaultRelativeInput-NoPathReq-Read.jsp

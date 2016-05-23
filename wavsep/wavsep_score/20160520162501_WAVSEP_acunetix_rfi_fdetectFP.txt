@@ -1,6 +1,6 @@
 Total count : 5
 RFI-FalsePositives-GET/Case01-RFI-FalsePositive-Forward-TextHtmlValidResponse-FilenameContext-Unrestricted-OSPath-DefaultRelativeInput-NoPathReq-Read.jsp
+RFI-FalsePositives-GET/Case02-RFI-FalsePositive-OpenRedirect-TextHtmlValidResponse-FilenameContext-Unrestricted-OSPath-DefaultRelativeInput-NoPathReq-Read.jsp
 RFI-FalsePositives-GET/Case03-RFI-FalsePositive-UrlClass-TextHtmlValidResponse-FilenameContext-WhiteList-OSPath-DefaultRelativeInput-NoPathReq-Read.jsp
 RFI-FalsePositives-GET/Case04-RFI-FalsePositive-UrlClass-TextHtmlValidResponse-FilenameContext-TraversalRemovalAndWhiteList-OSPath-DefaultRelativeInput-NoPathReq-Read.jsp
-RFI-FalsePositives-GET/Case05-RFI-FalsePositive-UrlClass-TextHtmlValidResponse-FilenameContext-EnumerationResponseOnly-OSPath-DefaultRelativeInput-NoPathReq-Read.jsp
 RFI-FalsePositives-GET/Case06-RFI-FalsePositive-UrlClass-TextHtmlValidResponse-FilenameContext-InputNotUsed-OSPath-DefaultRelativeInput-NoPathReq-Read.jsp

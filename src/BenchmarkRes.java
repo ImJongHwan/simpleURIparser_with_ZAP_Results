@@ -22,6 +22,8 @@ public class BenchmarkRes {
     final static public String XPATH_INJECTION = "xpathi";
     final static public String CROSS_SITE_SCRIPTING = "xss";
 
+    public static final String BENCHMARK_CONTAIN_STRING = "BenchmarkTest";
+
     final static public String TRUE_POSITIVE = "tp";
     final static public String TRUE_NEGATIVE = "tn";
     final static public String BOTH_TRUE = "both_case";

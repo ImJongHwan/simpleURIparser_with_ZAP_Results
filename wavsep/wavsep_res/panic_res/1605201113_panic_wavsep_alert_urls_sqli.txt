@@ -1,0 +1,19 @@
+>> Total Count : 15
+SInjection-Detection-Evaluation-GET-200Error/Case07-InjectionInSearch-Numeric-UnionExploit-With200Errors.jsp
+SInjection-Detection-Evaluation-GET-500Error/Case08-InjectionInCalc-Numeric-BooleanExploit-WithErrors.jsp
+SInjection-Detection-Evaluation-GET-200Error/Case06-InjectionInView-Numeric-PermissionBypass-With200Errors.jsp
+SInjection-Detection-Evaluation-GET-500Error/Case07-InjectionInSearch-Numeric-UnionExploit-WithErrors.jsp
+SInjection-Detection-Evaluation-GET-200Error/Case16-InjectionInView-NumericWithoutQuotes-PermissionBypass-With200Errors.jsp
+SInjection-Detection-Evaluation-GET-500Error/Case16-InjectionInView-NumericWithoutQuotes-PermissionBypass-WithErrors.jsp
+SInjection-Detection-Evaluation-GET-200Error/Case19-InjectionInUpdate-NumericWithoutQuotes-CommandInjection-With200Errors.jsp
+SInjection-Detection-Evaluation-GET-200Error/Case10-InjectionInSearchOrderBy-Numeric-BinaryDeliberateRuntimeError-With200Errors.jsp
+SInjection-Detection-Evaluation-GET-500Error/Case10-InjectionInSearchOrderBy-Numeric-BinaryDeliberateRuntimeError-WithErrors.jsp
+SInjection-Detection-Evaluation-GET-500Error/Case06-InjectionInView-Numeric-PermissionBypass-WithErrors.jsp
+SInjection-Detection-Evaluation-GET-200Error/Case09-InjectionInUpdate-Numeric-CommandInjection-With200Errors.jsp
+SInjection-Detection-Evaluation-GET-500Error/Case17-InjectionInSearch-NumericWithoutQuotes-UnionExploit-WithErrors.jsp
+SInjection-Detection-Evaluation-GET-200Error/Case18-InjectionInCalc-NumericWithoutQuotes-BooleanExploit-With200Errors.jsp
+SInjection-Detection-Evaluation-GET-200Error/Case08-InjectionInCalc-Numeric-BooleanExploit-With200Errors.jsp
+SInjection-Detection-Evaluation-GET-200Error/Case17-InjectionInSearch-NumericWithoutQuotes-UnionExploit-With200Errors.jsp
+SInjection-FalsePositives-GET/Case02-FalsePositiveInjectionInLogin-PsAndIv-500SyntaxErrorOnIvFailure.jsp
+SInjection-FalsePositives-GET/Case06-FalsePositiveInjectionInLogin-HoneyPotNoSQL-Fake500SyntaxErrorOnIvFailure.jsp
+SInjection-FalsePositives-GET/Case04-FalsePositiveInjectionInLogin-PsAndIv-200SyntaxErrorOnIvFailure.jsp

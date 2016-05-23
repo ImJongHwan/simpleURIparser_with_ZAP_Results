@@ -1,0 +1,10 @@
+Total count : 9
+RXSS-Detection-Evaluation-POST/Case07-Event2DoubleQuotePropertyScope.jsp
+RXSS-Detection-Evaluation-POST/Case08-Event2SingleQuotePropertyScope.jsp
+RXSS-Detection-Evaluation-POST/Case13-Vbs2DoubleQuoteVbsEventScope.jsp
+RXSS-Detection-Evaluation-POST/Case14-Vbs2SingleQuoteVbsEventScope.jsp
+RXSS-Detection-Evaluation-POST/Case17-Js2PropertyJsScopeDoubleQuoteDelimiter.jsp
+RXSS-Detection-Evaluation-POST/Case18-Js2PropertyJsScopeSingleQuoteDelimiter.jsp
+RXSS-Detection-Evaluation-POST/Case20-Vbs2PropertyVbsScopeDoubleQuoteDelimiter.jsp
+RXSS-Detection-Evaluation-POST/Case25-Vbs2ScriptTagDoubleQuoteDelimiter.jsp
+RXSS-Detection-Evaluation-POST/Case31-Tag2HtmlPageScopeDuringException.jsp

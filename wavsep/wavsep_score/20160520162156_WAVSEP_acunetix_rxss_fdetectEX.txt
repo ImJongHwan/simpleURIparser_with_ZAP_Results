@@ -1,0 +1,10 @@
+Total count : 9
+RXSS-Detection-Evaluation-GET-Experimental/Case02-Tag2HtmlPageScope-SecretVectorPOST.jsp
+RXSS-Detection-Evaluation-GET-Experimental/Case04-Tag2HtmlPageScope-ChangingAntiCSRFToken.jsp
+RXSS-Detection-Evaluation-GET-Experimental/Case06-ScriptlessInjectionInBaseTagHrefAttribute.jsp
+RXSS-Detection-Evaluation-GET-Experimental/Case07-ScriptlessInjectionInScriptTagSrcAttribute.jsp
+RXSS-Detection-Evaluation-POST-Experimental/Case02-Tag2HtmlPageScope-SecretVectorGET.jsp
+RXSS-Detection-Evaluation-POST-Experimental/Case04-Tag2HtmlPageScope-ChangingAntiCSRFToken.jsp
+RXSS-Detection-Evaluation-POST-Experimental/Case06-ScriptlessInjectionInBaseTagHrefAttribute.jsp
+RXSS-Detection-Evaluation-POST-Experimental/Case07-ScriptlessInjectionInScriptTagSrcAttribute.jsp
+RXSS-Detection-Evaluation-COOKIE-Experimental/Case01-Tag2HtmlPageScope.jsp
